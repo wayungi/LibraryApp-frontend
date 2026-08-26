@@ -19,6 +19,16 @@ const  Home = () => {
                 </div>
             </section>
 
+            <div className="drawer-tabs" role="tablist" aria-label="Filter by genre">
+                <button className="active">All titles</button>
+                <button>Fiction</button>
+                <button>Mystery</button>
+                <button>Sci-Fi</button>
+                <button>Poetry</button>
+                <button>History</button>
+                <button>Nature</button>
+            </div>
+
 
             
         </>
