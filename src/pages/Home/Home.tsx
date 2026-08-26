@@ -1,4 +1,5 @@
 import "./Home.css"
+import Book from "./../../components/books/Book"
 
 const  Home = () => {
     return (
@@ -32,28 +33,28 @@ const  Home = () => {
             <section className="shelf">
                 <div className="shelf-inner">
                     <div className="shelf-head">
-                    <h2>On the shelf</h2>
-                    <span className="count">Showing 5 of 10</span>
-                </div>
+                        <h2>On the shelf</h2>
+                        <span className="count">Showing 5 of 10</span>
+                    </div>
 
-                <div className="grid">
+                    {/* display the avaialable books for borrowing here */}
+                    <div className="grid">
+                        <Book />
 
-                    <article className="book">
-                        <div className="cover" style={{background:"linear-gradient(155deg,#3d5a52,#1c2e26);"}}>
-                            <span className="stamp available">Available</span>
-                            <span className="spine-title">The Undertow</span>
-                        </div>
-
-                        <div className="meta">
-                            <p className="title">The Undertow</p>
-                            <p className="author">Marguerite Feld</p>
+                        <article className="book">
+                            <div className="cover" style={{background:"linear-gradient(155deg,#7a4b2e,#2a1c14);"}}>
+                            <span className="stamp out">Due 9/02</span>
+                            <span className="spine-title">Salt &amp; Longitude</span>
+                            </div>
+                            <div className="meta">
+                            <p className="title">Salt &amp; Longitude</p>
+                            <p className="author">R. K. Okafor</p>
                             <div className="row">
                                 <span className="call">ISBN</span>
-                                <button className="borrow-btn">Borrow</button>
+                                <button className="borrow-btn" disabled>Hold</button>
                             </div>
-                        </div>
-                    </article>
-
+                            </div>
+                        </article>
                     </div>
                 </div>
             </section>    
@@ -62,3 +63,20 @@ const  Home = () => {
 }
 
 export default Home
+
+
+{/* <article className="book">
+                            <div className="cover" style={{background:"linear-gradient(155deg,#3d5a52,#1c2e26);"}}>
+                                <span className="stamp available">Available</span>
+                                <span className="spine-title">The Undertow</span>
+                            </div>
+
+                            <div className="meta">
+                                <p className="title">The Undertow</p>
+                                <p className="author">Marguerite Feld</p>
+                                <div className="row">
+                                    <span className="call">ISBN</span>
+                                    <button className="borrow-btn">Borrow</button>
+                                </div>
+                            </div>
+                        </article> */}
