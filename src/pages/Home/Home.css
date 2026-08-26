@@ -88,9 +88,36 @@
   }
 
   .drawer-tabs button:hover{ color:var(--card-hi); }
-  
+
   .drawer-tabs button.active{
     background:var(--card);
     color:var(--ink);
     border-color:var(--card);
+  }
+
+
+  .shelf{
+    background:var(--card);
+    padding:44px 40px 70px;
+  }
+
+  .shelf-inner{ max-width:1240px; margin:0 auto; }
+
+  .shelf-head{
+    display:flex; justify-content:space-between; align-items:baseline;
+    margin-bottom:28px; color:var(--ink);
+    border-bottom:1px solid var(--line);
+    padding-bottom:16px;
+  }
+
+  .shelf-head h2{
+    font-family:'Fraunces', serif; font-weight:600; font-size:22px; margin:0;
+  }
+
+  .shelf-head .count{ font-family:'IBM Plex Mono', monospace; font-size:12px; color:rgba(35,42,46,0.55); }
+
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(200px, 1fr));
+    gap:26px 24px;
   }
