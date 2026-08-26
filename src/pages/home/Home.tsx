@@ -1,5 +1,5 @@
 import "./Home.css"
-import Book from "./../../components/books/Book"
+import Book from "../../components/books/Book"
 
 const  Home = () => {
     return (
