@@ -1,0 +1,63 @@
+.account-hero{
+    padding:56px 40px 8px;
+    max-width:1240px;
+    margin:0 auto;
+  }
+
+.account-hero .hero-eyebrow{ margin-bottom:14px; }
+
+.hero-eyebrow{ font-family:'IBM Plex Mono', monospace; font-size:11.5px; letter-spacing:0.18em; text-transform:uppercase; color:var(--brass-hi); margin-bottom:16px; }
+
+h1.account-title{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:clamp(32px, 4vw, 46px);
+    line-height:1.05;
+    letter-spacing:-0.01em;
+    margin:0 0 12px;
+  }
+
+.account-title em{ font-style:italic; font-weight:300; color:var(--brass-hi); }
+
+.account-note{
+    font-family:'Source Serif 4', serif;
+    font-size:15px;
+    line-height:1.55;
+    color:rgba(242,236,217,0.68);
+    max-width:520px;
+    margin:0;
+}
+
+.stat-row{ display:flex; gap:28px; margin-top:34px; flex-wrap:wrap;}
+
+.stat{
+    font-family:'IBM Plex Mono', monospace;
+    color:var(--card);
+}
+
+.stat .num{ font-family:'Fraunces', serif; font-size:30px; font-weight:600; color:var(--brass-hi); display:block; line-height:1; }
+  
+.stat .label{ font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(242,236,217,0.55); display:block; margin-top:6px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
