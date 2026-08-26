@@ -59,3 +59,38 @@
     transition:background .2s ease;
   }
   .search-card .go:hover{ background:var(--pine-deep); }
+
+
+  .drawer-tabs{
+    display:flex;
+    gap:0;
+    max-width:1240px;
+    margin:52px auto 0;
+    padding:0 40px;
+    overflow-x:auto;
+  }
+
+  .drawer-tabs button{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:rgba(242,236,217,0.6);
+    background:rgba(255,255,255,0.03);
+    border:1px solid var(--line-light);
+    border-bottom:none;
+    padding:11px 20px;
+    cursor:pointer;
+    white-space:nowrap;
+    margin-right:4px;
+    border-radius:6px 6px 0 0;
+    transition:all .2s ease;
+  }
+
+  .drawer-tabs button:hover{ color:var(--card-hi); }
+  
+  .drawer-tabs button.active{
+    background:var(--card);
+    color:var(--ink);
+    border-color:var(--card);
+  }
