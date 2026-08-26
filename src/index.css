@@ -1,0 +1,23 @@
+:root{
+    --pine:#1c2e26;
+    --pine-deep:#12211b;
+    --card:#f2ecd9;
+    --card-hi:#faf6ea;
+    --ink:#232a2e;
+    --brass:#b98a3d;
+    --brass-hi:#d6ab5c;
+    --stamp-red:#a1402c;
+    --line: rgba(35,42,46,0.16);
+    --line-light: rgba(242,236,217,0.18);
+}
+
+*{box-sizing:border-box;}
+
+html,body{margin:0;padding:0;}
+
+body{
+    background:var(--pine);
+    color:var(--card);
+    font-family:'Source Serif 4', serif;
+    -webkit-font-smoothing:antialiased;
+  }
