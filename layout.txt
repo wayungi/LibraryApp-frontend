@@ -1,0 +1,75 @@
+library-app/
+│
+├── public/
+│   └── ...
+│
+├── src/
+│   │
+│   ├── assets/
+│   │   ├── images/
+│   │   └── icons/
+│   │
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Navbar.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   └── Sidebar.tsx
+│   │   │
+│   │   ├── books/
+│   │   │   ├── BookCard.tsx
+│   │   │   ├── BookGrid.tsx
+│   │   │   ├── BookSearch.tsx
+│   │   │   └── BookFilter.tsx
+│   │   │
+│   │   └── common/
+│   │       ├── Button.tsx
+│   │       ├── Modal.tsx
+│   │       └── Loading.tsx
+│   │
+│   ├── pages/
+│   │   ├── Home/
+│   │   │   └── Home.tsx
+│   │   │
+│   │   ├── Books/
+│   │   │   ├── Books.tsx
+│   │   │   └── BookDetails.tsx
+│   │   │
+│   │   ├── BorrowedBooks/
+│   │   │   └── BorrowedBooks.tsx
+│   │   │
+│   │   ├── Login/
+│   │   │   └── Login.tsx
+│   │   │
+│   │   └── Register/
+│   │       └── Register.tsx
+│   │
+│   ├── services/
+│   │   ├── api.ts
+│   │   ├── bookService.ts
+│   │   ├── authService.ts
+│   │   └── borrowingService.ts
+│   │
+│   ├── types/
+│   │   ├── book.ts
+│   │   ├── user.ts
+│   │   └── borrowing.ts
+│   │
+│   ├── hooks/
+│   │   ├── useBooks.ts
+│   │   └── useAuth.ts
+│   │
+│   ├── context/
+│   │   └── AuthContext.tsx
+│   │
+│   ├── routes/
+│   │   └── AppRoutes.tsx
+│   │
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+│
+├── .env
+├── .gitignore
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
