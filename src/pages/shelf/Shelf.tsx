@@ -1,3 +1,4 @@
+import ShelfBook from '../../components/shelfBooks/ShelfBook'
 import './Shelf.css'
 
 const  Shelf = () => {
@@ -13,6 +14,19 @@ const  Shelf = () => {
                     <div className="stat"><span className="num">01</span><span className="label">Due this week</span></div>
                     <div className="stat"><span className="num">00</span><span className="label">Overdue</span></div>
                     <div className="stat"><span className="num">12</span><span className="label">Borrowed this year</span></div>
+                </div>
+            </section>
+
+            <section className="slip-panel">
+                <div className="slip-inner">
+                    <div className="slip-section">
+                        <div className="slip-section-head">
+                            <h2>On your shelf</h2>
+                            <span className="count">3 books</span>
+                        </div>
+
+                        <ShelfBook />
+                    </div>
                 </div>
             </section>
         </>
