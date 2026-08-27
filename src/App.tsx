@@ -4,10 +4,10 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import Admin from './pages/Admin.tsx';
 import Hold from './pages/onhold/Hold.tsx';
 import Home from './pages/home/Home.tsx';
-import Login from './pages/Login.tsx';
+import Login from './pages/login/Login.tsx';
 import Returns from './pages/returns/Returns.tsx';
 import Shelf from './pages/shelf/Shelf.tsx';
-import Signup from './pages/Signup.tsx';
+import Signup from './pages/signup/Signup.tsx';
 
 
 function App() {
