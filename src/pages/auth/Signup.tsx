@@ -5,19 +5,21 @@ const  Signup = () => {
     return (
         <>
             <div className="auth-page">
+
                 <div className="auth-visual">
+                    {/* the library card */}
                     <div className="library-card">
-                    <div className="lc-head">
-                        <span className="lc-brand">Cops Library</span>
-                        <span className="lc-type">Member Card</span>
-                    </div>
-                    <div className="lc-name" id="preview-name">Your name here</div>
-                    <div className="lc-number">№ <span id="preview-number">***</span> &nbsp;·&nbsp; Member since <span id="preview-date">Aug 2026</span></div>
-                    <div className="lc-foot">
-                        <span>Lending Library</span>
-                        <span>5 holds maximum</span>
-                    </div>
-                    <span className="lc-stamp">New</span>
+                        <div className="lc-head">
+                            <span className="lc-brand">Cops Library</span>
+                            <span className="lc-type">Member Card</span>
+                        </div>
+                        <div className="lc-name" id="preview-name">Your name here</div>
+                        <div className="lc-number">№ <span id="preview-number">***</span> &nbsp;·&nbsp; Member since <span id="preview-date">Aug 2026</span></div>
+                        <div className="lc-foot">
+                            <span>Lending Library</span>
+                            <span>5 holds maximum</span>
+                        </div>
+                        <span className="lc-stamp">New</span>
                     </div>
                     <p className="caption">having an online account enables you to reserve books online.</p>
                 </div>
