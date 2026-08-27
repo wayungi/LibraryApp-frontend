@@ -1,0 +1,61 @@
+.auth-page{ 
+    min-height:100vh; 
+    display:flex; 
+}
+
+.auth-visual{
+    flex:1 1 46%;
+    background:radial-gradient(circle at 30% 20%, #24392f 0%, var(--pine-deep) 60%);
+    display:flex; align-items:center; justify-content:center;
+    padding:60px; position:relative;
+}
+
+.auth-visual .caption{
+    position:absolute; bottom:44px; left:60px; right:60px;
+    font-family:'IBM Plex Mono', monospace; font-size:11.5px; letter-spacing:0.08em;
+    color:rgba(242,236,217,0.5); text-transform:uppercase;
+  }
+
+.auth-form-side{
+    flex:1 1 54%; background:var(--card); color:var(--ink);
+    display:flex; align-items:center; justify-content:center; padding:60px 40px;
+}
+
+.auth-form-inner{ 
+    width:100%; 
+    max-width:380px;
+}
+
+.auth-eyebrow{ 
+    font-family:'IBM Plex Mono', 
+    monospace; font-size:11px; 
+    letter-spacing:0.14em; 
+    text-transform:uppercase; 
+    color:var(--brass); 
+    margin-bottom:10px;
+}
+
+.auth-title{ 
+    font-family:'Fraunces', 
+    serif; font-weight:500; 
+    font-size:32px; 
+    margin:0 0 10px; 
+    letter-spacing:-0.01em;
+}
+
+.auth-sub{ 
+    font-family:'Source Serif 4', 
+    serif; font-size:14.5px; 
+    color:rgba(35,42,46,0.6); 
+    margin:0 0 32px; 
+    line-height:1.5;
+}
+
+ .library-card{
+    width:340px; max-width:86vw; aspect-ratio:1.6/1;
+    background:var(--card-hi); border-radius:10px;
+    padding:22px 24px; position:relative;
+    box-shadow:0 30px 70px -20px rgba(0,0,0,0.65);
+    color:var(--ink); font-family:'IBM Plex Mono', monospace;
+    overflow:hidden;
+  }
