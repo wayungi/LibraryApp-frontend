@@ -8,21 +8,23 @@ import Login from './pages/login/Login.tsx';
 import Returns from './pages/returns/Returns.tsx';
 import Shelf from './pages/shelf/Shelf.tsx';
 import Signup from './pages/signup/Signup.tsx';
-
+import Layout from './components/layout/Layout.tsx'
 
 function App() {
 
   return (
     <>    
       <BrowserRouter>
-      <Navbar />
+      {/* <Navbar /> */}
 
       <Routes>
-        <Route index element={<Home />} />
-        <Route path="admin" element={<Admin />} />
-        <Route path="hold" element={<Hold />} />
-        <Route path="returns" element={<Returns />} />
-        <Route path="shelf" element={<Shelf />} />
+        <Route element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="admin" element={<Admin />} />
+          <Route path="hold" element={<Hold />} />
+          <Route path="returns" element={<Returns />} />
+          <Route path="shelf" element={<Shelf />} />
+        </Route>
 
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<Signup />} />
