@@ -1,0 +1,24 @@
+.scan-card{
+    margin-top:36px;
+    background:var(--card);
+    color:var(--ink);
+    border-radius:3px;
+    padding:22px 26px;
+    display:flex;
+    align-items:center;
+    gap:18px;
+    box-shadow:0 18px 40px -18px rgba(0,0,0,0.5);
+    max-width:1160px;
+  }
+  .scan-card input{
+    flex:1; border:none; background:none; outline:none;
+    font-family:'IBM Plex Mono', monospace; font-size:15px; color:var(--ink);
+    letter-spacing:0.03em;
+  }
+  .scan-card input::placeholder{ color:rgba(35,42,46,0.4); }
+  .scan-card .go{
+    font-family:'IBM Plex Mono', monospace; font-size:12px; letter-spacing:0.08em; text-transform:uppercase;
+    background:var(--pine); color:var(--card-hi); border:none; padding:11px 20px; border-radius:2px; cursor:pointer;
+  }
+  .scan-card .go:hover{ background:var(--pine-deep); }
+  .scan-label{ f
