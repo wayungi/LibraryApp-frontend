@@ -1,11 +1,17 @@
 import { Link } from "react-router"
 import LibraryCard from "../../components/card/LibraryCard"
 
+
+
+
 const  Login = () => {
     return (
         <>
             <div className="auth-page">
-                <LibraryCard />
+                <div className="auth-visual">
+                    <LibraryCard status="ACTIVE" />
+                    <p className="caption">Insert your card number below to enter the reading room</p>
+                </div>
 
                 <div className="auth-form-side">
                     <div className="auth-form-inner">
