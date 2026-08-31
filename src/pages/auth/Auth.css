@@ -62,7 +62,6 @@
 
 .library-card::before{
     content:""; position:absolute; top:0; left:0; right:0; height:9px;
-    /* background:repeating-linear-gradient(90deg, var(--brass) 0 7px, transparent 7px 14px); */
     opacity:0.55;
 }
 
