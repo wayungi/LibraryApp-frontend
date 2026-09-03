@@ -1,7 +1,7 @@
 import "./Home.css"
-import Book from "../../components/books/Book"
+import Books from "../../components/books/Books"
 
-const  Home = () => {
+const Home = () => {
     return (
         <>
             <section className="hero">
@@ -14,7 +14,7 @@ const  Home = () => {
                 </div>
 
                 <div className="search-card">
-                    <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: "12px", color: "rgba(35,42,46,0.45)"}}>SEARCH</span>
+                    <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: "12px", color: "rgba(35,42,46,0.45)" }}>SEARCH</span>
                     <input type="text" placeholder="Try a title, an author, or how the book made you feel…" aria-label="Search the catalog" />
                     <button className="go">Look up</button>
                 </div>
@@ -39,25 +39,25 @@ const  Home = () => {
 
                     {/* display the avaialable books for borrowing here */}
                     <div className="grid">
-                        <Book />
+                       <Books/>
 
                         <article className="book">
-                            <div className="cover" style={{background:"linear-gradient(155deg,#7a4b2e,#2a1c14);"}}>
-                            <span className="stamp out">Due 9/02</span>
-                            <span className="spine-title">Salt &amp; Longitude</span>
+                            <div className="cover" style={{ background: "linear-gradient(155deg,#7a4b2e,#2a1c14);" }}>
+                                <span className="stamp out">Due 9/02</span>
+                                <span className="spine-title">Salt &amp; Longitude</span>
                             </div>
                             <div className="meta">
-                            <p className="title">Salt &amp; Longitude</p>
-                            <p className="author">R. K. Okafor</p>
-                            <div className="row">
-                                <span className="call">ISBN</span>
-                                <button className="borrow-btn" disabled>Hold</button>
-                            </div>
+                                <p className="title">Salt &amp; Longitude</p>
+                                <p className="author">R. K. Okafor</p>
+                                <div className="row">
+                                    <span className="call">ISBN</span>
+                                    <button className="borrow-btn" disabled>Hold</button>
+                                </div>
                             </div>
                         </article>
                     </div>
                 </div>
-            </section>    
+            </section>
         </>
     )
 }
